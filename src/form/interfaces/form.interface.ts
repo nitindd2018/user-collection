@@ -8,5 +8,5 @@ export interface Form {
     phonenumber? : number;
     isGraduate? : boolean;
     getData(): any;
-    saveData(): any;
+    create(): any;
 }
